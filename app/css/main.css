@@ -1,13 +1,41 @@
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 body {
-  margin: 0;
+  background: #333;
+}
+
+.social-icons{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.social-icons li {
+  margin: 30px 10px;
+}
+
+.social-icons li a {
+  text-decoration: none;
+  padding: 30px;
+  font-size: 30px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #f1f1f1;
+  transition: all ease-in-out 150ms;
+}
+
+.social-icons li a:hover {
+  text-shadow: 0 5px 10px #212121;
+}
+
+.social-icons li:nth-child(1) a {
+  background-color:#12f2fa;
+}
+
+.social-icons li:nth-child(2) a {
+  background-color: #12f2fa;
+}
+
+.social-icons li:nth-child(3) a {
+  background-color: #12f2fa;
 }
